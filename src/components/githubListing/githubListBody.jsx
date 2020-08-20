@@ -11,6 +11,7 @@ export const GithubListBody = ({ repo }) => {
         </div>
         <div className="repo-inner-right">
           <img
+            className="delete-icon"
             src="https://cdn.iconscout.com/icon/free/png-512/delete-737-475058.png"
             alt="delete-icon"
           />
@@ -24,6 +25,7 @@ export const GithubListBody = ({ repo }) => {
         </div>
         <div className="repo-inner-right">
           <img
+            className="delete-icon"
             src="https://cdn.iconscout.com/icon/free/png-512/delete-737-475058.png"
             alt="delete-icon"
           />

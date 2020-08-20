@@ -43,3 +43,7 @@ img {
 .sections{
   margin: 25px 0px;
 }
+.delete-icon{
+    height: 40px;
+    width: 50px;
+}
