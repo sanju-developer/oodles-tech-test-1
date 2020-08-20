@@ -3,7 +3,7 @@
   border:2px solid #000;
 }
 .repo-header{
-  padding:4px;
+  padding:16px 4px;
 }
 .user-avatar{
   float: right;
@@ -14,13 +14,13 @@ text-align: center;
 .text-right{
   text-align: right;
 }
-.repo-list{
-  display: flex;
+.repo-item{
   padding: 8px;
-  justify-content: space-between;
+  display: inline-flex;
+  width: 47%;
 }
 .repo-left,.repo-right{
-  width: 45%;
+  width: 100%;
   padding:8px;
   display: flex;
   justify-content: space-between;
@@ -46,4 +46,7 @@ img {
 .delete-icon{
     height: 40px;
     width: 50px;
+}
+div.repo-item:nth-of-type(even) {
+    margin-right: 50px;
 }
